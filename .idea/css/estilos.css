@@ -24,13 +24,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.proyecto {
-    background-color: white;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
 footer {
     background-color: #2c3e50;
     color: white;
@@ -41,4 +34,40 @@ footer {
     width: 20px;
     vertical-align: middle;
     margin-right: 5px;
+}
+/* Estilo general para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+thead {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e0f7fa;
+    cursor: default;
+}
+
+caption {
+    caption-side: top;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #34495e;
 }
